@@ -1,0 +1,45 @@
+---
+title: "Python-GitHub-R-HTML"
+author: "Forest Shepherd"
+date: "12/30/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# #install.packages('usethis')
+# library(usethis)
+# #install.packages("gitcreds")
+# library(gitcreds)
+# use_git_config(user.name = "forest shepherd", user.email = "forestshepherd.geo@gmail.com")
+# usethis::git_default_branch_configure()
+# usethis::create_github_token()
+# 
+# # issue with gitcreds?? tutorial example
+# gitcreds::gitcreds_set()
+# 
+# # 30-day access to GitHub 12/30/2021
+# PAT = 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
+
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
